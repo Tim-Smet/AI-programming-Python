@@ -1,0 +1,42 @@
+
+Filename= Dog_01.jpg 
+pet_image label= dog 
+Classifier Label= bernese mountain dog 
+match= 1 
+Pet label a dog = 1 
+Classifier label a dog = 1
+
+Filename= Lamp.jpg 
+pet_image label= lamp.jpg 
+Classifier Label= table lamp 
+match= 0 
+Pet label a dog = 0 
+Classifier label a dog = 0
+
+Filename= Dog_02.jpg 
+pet_image label= dog 
+Classifier Label= appenzeller 
+match= 0 
+Pet label a dog = 1 
+Classifier label a dog = 1
+
+Filename= monkey.jpg 
+pet_image label= monkey.jpg 
+Classifier Label= guenon, guenon monkey 
+match= 0 
+Pet label a dog = 0 
+Classifier label a dog = 0
+The model you used is: resnet
+
+Number of images:  4 
+Number of Dog Images : 2 
+Number of 'not-a' Dog images : 2
+
+% pct_correct_dogs: 100.0
+
+% pct_of_correct_not_dogs: 100.0
+
+% pct_correct_breed: 50.0
+
+% pct_label_matches: 25.0
+If there are misclassifications, do you want to print them? Answer with yes/no: 
